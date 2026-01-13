@@ -1,9 +1,9 @@
 services:
-  mongo-sharding-repl:
-    container_name: mongo-sharding-repl
+  sharding-repl-cache:
+    container_name: sharding-repl-cache
     image: dh-mirror.gitverse.ru/mongo:latest
     volumes:
-      - mongo-sharding-repl_data_container:/data/db
+      - sharding-repl-cache_data_container:/data/db
 
   # сервер конфигурации
   configSrv:
@@ -222,6 +222,20 @@ services:
     environment:
       MONGODB_URL: "mongodb://mongos_router:27020"
       MONGODB_DATABASE_NAME: "somedb"
+      REDIS_URL: "redis://redis:6379"
+
+  redis:
+    image: "redis:latest"
+    container_name: redis
+    ports:
+      - "6379"
+    volumes:
+      - redis_data:/data
+      - ./redis/redis.conf:/usr/local/etc/redis/redis.conf
+    command: [ "redis-server", "/usr/local/etc/redis/redis.conf" ]
+    networks:
+      app-network:
+        ipv4_address: 173.17.0.2
 
 networks:
   app-network:
@@ -232,7 +246,7 @@ networks:
         - subnet: 173.17.0.0/16
 
 volumes:
-  mongo-sharding-repl_data_container:
+  sharding-repl-cache_data_container:
   config-data:
   shard1-1-data:
   shard1-2-data:
@@ -240,3 +254,4 @@ volumes:
   shard2-1-data:
   shard2-2-data:
   shard2-3-data:
+  redis_data: {}
