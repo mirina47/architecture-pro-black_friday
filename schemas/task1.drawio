@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
   <diagram name="Page-1" id="-H_mtQnk-PTXWXPvYvuk">
-    <mxGraphModel dx="1530" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,7 +35,7 @@
             <mxPoint x="620" y="420" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rFunmQkk5lPCaPx0UWan-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; text-align: start; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;Первый вариант схемы&lt;/span&gt;" vertex="1">
+        <mxCell id="rFunmQkk5lPCaPx0UWan-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontStyle=1" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;Первый вариант схемы&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="220" x="360" y="40" as="geometry" />
         </mxCell>
         <mxCell id="rFunmQkk5lPCaPx0UWan-13" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Mongos (router)" vertex="1">
@@ -60,7 +60,7 @@
             <mxPoint x="620" y="1030" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rFunmQkk5lPCaPx0UWan-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; text-align: start; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;Второй вариант схемы&lt;/span&gt;" vertex="1">
+        <mxCell id="rFunmQkk5lPCaPx0UWan-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontStyle=1" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;Второй вариант схемы&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="210" x="360" y="560" as="geometry" />
         </mxCell>
         <mxCell id="rFunmQkk5lPCaPx0UWan-25" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="shard2-3" vertex="1">
@@ -127,7 +127,7 @@
             <mxPoint x="620" y="1868" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rFunmQkk5lPCaPx0UWan-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; text-align: start; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;Третий вариант схемы&lt;/span&gt;" vertex="1">
+        <mxCell id="rFunmQkk5lPCaPx0UWan-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontStyle=1" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: &amp;quot;YS Text&amp;quot;, sans-serif; font-size: 18px; white-space-collapse: preserve-breaks; background-color: rgb(255, 255, 255);&quot;&gt;Третий вариант схемы&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="210" x="360" y="1398" as="geometry" />
         </mxCell>
         <mxCell id="rFunmQkk5lPCaPx0UWan-52" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="shard2-3" vertex="1">
